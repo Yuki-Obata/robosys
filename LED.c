@@ -5,7 +5,7 @@
 #include <linux/uaccess.h>
 #include <linux/io.h>
   
-  MODULE_AUTHOR("Ryuichi Ueda");
+  MODULE_AUTHOR("Yuki Obata");
   MODULE_DESCRIPTION("driver for LED contorol");
   MODULE_LICENSE("GPL");
   MODULE_VERSION("0.1");
@@ -83,7 +83,3 @@
  
   module_init(init_mod);
   module_exit(cleanup_mod);
-
-
-
-22番24番
