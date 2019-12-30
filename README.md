@@ -9,7 +9,13 @@ Software: Raspbian 3.2.1
 ## Usage
 LEDをRasberry Piの22番と39番のピンに接続  
 myled.cをmakefileでコンパイル  
-    sudo insmod myled.ko
+'''
+    sudo insmod myled.ko  
+    sudo chmod 666 / dev / myled0  
+echo 0> / dev / myled0  //Turn off LED  
+echo 1> / dev / myled0  //Turn on LED 
+'''
+    
 
 
 ## License
