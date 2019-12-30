@@ -16,6 +16,6 @@ echo 0> / dev / myled0  // LED消灯
 echo 1> / dev / myled0  // LED点灯 
 ``` 
 ## License
-[MIT](
+[MIT](https://github.com/Yuki-Obata/robosys/blob/master/LICENSE)
 ## References
 https://github.com/ryuichiueda/robosys2019.git
