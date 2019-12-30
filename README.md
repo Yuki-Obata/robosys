@@ -9,7 +9,7 @@ Software: Raspbian 3.2.1
 ## Usage
 LEDをRasberry Piの22番と39番のピンに接続  
 myled.cをmakefileでコンパイル 
-    iiii
+    aaaa
 
 
 ## License
